@@ -18,7 +18,7 @@ function Modal(_ref) {
     display = _ref.display,
     width = _ref.width,
     heigth = _ref.heigth,
-    bgColor = _ref.bgColor,
+    modalBgColor = _ref.modalBgColor,
     margin = _ref.margin,
     button = _ref.button,
     buttonText = _ref.buttonText,
@@ -56,7 +56,7 @@ function Modal(_ref) {
     style: {
       width: width,
       heigth: heigth,
-      backgroundColor: bgColor,
+      backgroundColor: modalBgColor,
       margin: margin
     }
   }, /*#__PURE__*/_react.default.createElement("span", {
@@ -78,10 +78,10 @@ function Modal(_ref) {
 }
 Modal.propTypes = {
   text: _propTypes.default.string,
-  display: _propTypes.default.bool,
+  display: _propTypes.default.string,
   width: _propTypes.default.string,
   heigth: _propTypes.default.string,
-  bgColor: _propTypes.default.string,
+  modalBgColor: _propTypes.default.string,
   margin: _propTypes.default.string,
   button: _propTypes.default.string,
   buttonText: _propTypes.default.string,

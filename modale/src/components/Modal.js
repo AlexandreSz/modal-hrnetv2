@@ -6,7 +6,7 @@ function Modal({
   display,
   width,
   heigth,
-  bgColor,
+  modalBgColor,
   margin,
   button,
   buttonText,
@@ -45,7 +45,7 @@ function Modal({
         style={{
           width,
           heigth,
-          backgroundColor: bgColor,
+          backgroundColor: modalBgColor,
           margin,
         }}
       >
@@ -76,10 +76,10 @@ function Modal({
 }
 Modal.propTypes = {
   text: PropTypes.string,
-  display: PropTypes.bool,
+  display: PropTypes.string,
   width: PropTypes.string,
   heigth: PropTypes.string,
-  bgColor: PropTypes.string,
+  modalBgColor: PropTypes.string,
   margin: PropTypes.string,
   button: PropTypes.string,
   buttonText: PropTypes.string,
