@@ -1,6 +1,6 @@
 {
   "name": "@alex62700/modale",
-  "version": "0.1.4",
+  "version": "0.1.7",
   "description": "Simple component displaying a personalized message in a new window.",
   "author": "S.Alexandre",
   "privacy": false,
