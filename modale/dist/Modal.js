@@ -78,7 +78,7 @@ function Modal(_ref) {
 }
 Modal.propTypes = {
   text: _propTypes.default.string,
-  display: _propTypes.default.string,
+  display: _propTypes.default.bool,
   width: _propTypes.default.string,
   heigth: _propTypes.default.string,
   modalBgColor: _propTypes.default.string,
